@@ -45,7 +45,7 @@ For example if the user inputs the following:
 key: ORAK </br>
 message: AVONISEVIL (spaces are not used in the message)
 
-to encode the message the key must first be repeated to the length of the message. The message (AVONISEVIL) is 10 characters long and the key (ORAK) is 4 characters long so it will become ORAKORAKOR. In the event that the message is shorter than the key then only the number of letters reqired will be used to encrypt the message.
+to encode the message the key must first be repeated to the length of the message. The message (AVONISEVIL) is 10 characters long and the key (ORAK) is 4 characters long so it will become ORAKORAKOR. In the event that the message is shorter than the key then only the number of letters required will be used to encrypt the message.
 
 Next using the key, message and the tabula recta the letter at the intersection of the each key and message letter is identified to create the cypher. So the intersection of O (<strong>O</strong>RAKORAKOR) and A (<strong>A</strong>VONISEVIL) points to the letter O and so this is the first letter of the cypher. The whole itteration goes as follows:
 <table>
@@ -86,7 +86,7 @@ Next using the key, message and the tabula recta the letter at the intersection 
   
   Therefore the cypher is: OMOXWJEFWC
   
-If instead we have the key and the cypher and wish to decode the cypher to get the message then we use the Tabula Recta again starting with the row where the letter of the key is located first and then we move across the row to find the relevant letter of the cypher, this is the intresection with the y axis pointing to the relevant letter of the decyphered message.
+If instead we have the key and the cypher and wish to decode the cypher to get the message then we use the Tabula Recta again starting with the row where the letter of the key is located first and then we move across the row to find the relevant letter of the cypher, this is the intersection with the y axis pointing to the relevant letter of the decyphered message.
 
 <h2>Future Work</h2>
 The programme could be modified to read in the message from a file and output the message to a file. Error checks on user input with relevant messages could also be implemented.
@@ -94,8 +94,8 @@ The programme could be modified to read in the message from a file and output th
 <h2>FAQ</h2>
 <ul>
   <li><strong>Isn't there a simpler way to code this?</strong>. In short, yes. There's probably many different/easier/harder ways to code this, this is my take on it. </li>
-  <li><strong>Isn't it cipher and not cypher?</strong>The answer, as far as I can tell, is that both spellings are correct with cypher being British English.</li>
-  <li><strong>Who (or what) are Orak and Avon?</strong>If you like vintage sci-fi TV shows you're in for a treat. Search for Blake's 7.</li>
+  <li><strong>Isn't it cipher and not cypher?</strong> The answer, as far as I can tell, is that both spellings are correct with cypher being British English.</li>
+  <li><strong>Who (or what) are Orak and Avon?</strong> If you like vintage sci-fi TV shows you're in for a treat. Search for Blake's 7.</li>
     
     
 
