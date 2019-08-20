@@ -11,7 +11,7 @@ The main elements are:
 
 The encryption/decryption happens with the use of a matrix referred to as the <strong>Tabula Recta</strong>. This matrix contains 26 rows of letters. Each row contains all letters of the alphabet with the first row containing the alphabet starting with the letter A and each subsequent row shifted cyclically to the left thus containing all possible 26 Caesar ciphers.
 
-<h1> Tabula Recta </h1>
+<h2> Tabula Recta </h2>
 <table>
 <tr><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td><td>U</td><td>V</td><td>W</td><td>X</td><td>Y</td><td>Z</td></tr>
 <tr><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td><td>U</td><td>V</td><td>W</td><td>X</td><td>Y</td><td>Z</td><td>A</td></tr>
